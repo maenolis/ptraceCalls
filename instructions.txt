@@ -1,0 +1,11 @@
+trace all
+r stdin readFileInstructions1.txt
+r stdout stdout1.txt
+r stderr stderr1.txt
+g
+trace all
+r stdin readFileInstructions2.txt
+r stdout stdout2.txt
+r stderr stderr2.txt
+g
+q
